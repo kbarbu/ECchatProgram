@@ -3,7 +3,7 @@ import java.net.*;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-   // import all the class that you will need for functionailty
+   // import all the class that you will need for functionality
 
    // extends jframe to develop gui's in java
 public class Server extends JFrame
@@ -189,8 +189,11 @@ private void allowTyping(final boolean trueOrFalse){
 
 
 }
-public static void main(String[] args)
+
+public static void main(String args[])
 {
-    RunServer();
+	Frame frm = new Server();
+	frm.setVisible(true);
 }
+
 }
