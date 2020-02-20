@@ -10,7 +10,7 @@ public class Client {
 public static void main(String[] args)throws IOException {
     int Port = 50003;
 String IP = JOptionPane.showInputDialog("Input Your IP Server : ");
-Socket sock=new Socket("10.88.192.57", 50003);
+Socket sock=new Socket("10.88.192.231", 50003);
 DataInputStream in= new DataInputStream(sock.getInputStream());
 System.out.println(in.readUTF());
 DataOutputStream out =new DataOutputStream(sock.getOutputStream());
